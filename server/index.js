@@ -2,7 +2,7 @@ const express = require('express')
 const api = require('./routes/api')
 
 const app = express()
-const port = 5000
+const port = process.env.PORT || 5000
 
 //allowing cross origin access for independant development
 //disable while production
