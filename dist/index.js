@@ -3,7 +3,7 @@ const api = require('./routes/api')
 const path = require('path')
 
 const app = express()
-const port = 5001
+const port = process.env.PORT || 5001
 
 app.use('/api', api)
 app.use(express.static(path.join(__dirname, 'build')));
