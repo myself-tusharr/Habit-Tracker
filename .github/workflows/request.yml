@@ -1,7 +1,7 @@
 name: Send GET Request
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '*/7 * * * *'
 jobs:
   request:
     runs-on: ubuntu-latest
