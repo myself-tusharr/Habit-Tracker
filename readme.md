@@ -12,3 +12,5 @@ node index.js
 ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 ![React](https://img.shields.io/badge/React-%61DAFB?style=for-the-badge&logo=react&logoColor=purple)
 
+## app preview
+![Preview](./images/preview.png)
